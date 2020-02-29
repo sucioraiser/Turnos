@@ -14,5 +14,5 @@ RUN npm install
 # Bundle app source
 COPY . .
 
-EXPOSE 8880
+
 CMD [ "node", "IndexTurnos.js" ]
