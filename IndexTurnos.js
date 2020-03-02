@@ -12,8 +12,8 @@ var urlencodedParser = bodyParser.urlencoded({ extended: false });
 // Store our app's ID and Secret. These we got from Step 1.
 // For this tutorial, we'll keep your API credentials right here. But for an actual app, you'll want to  store them securely in environment variables.
 // Cambiar a credenciales propias
-var clientId = '127415297921.940111879856';
-var clientSecret = 'e08a1027129ceece998c627322256a7b';
+var clientId = '127415297921.826021812657';
+var clientSecret = '80066d6f2f9b48d3c0ab7eaec35e0fe1';
 
 // Instantiates Express and assigns our app variable to it
 var app = express();
