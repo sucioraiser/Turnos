@@ -50,7 +50,7 @@ var urlencodedParser = bodyParser.urlencoded({ extended: false });
 
 // This route handles GET requests to our root ngrok address and responds with the same "Ngrok is working message" we used before
 app.get('/', function(req, res) {
-    res.send('Server Running! ' + req.url);
+    res.send('Server Running hola! ' + req.url);
 });
 
 
